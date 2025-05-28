@@ -13,7 +13,7 @@ app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
-app.use("/api/tasks", taskRoutes);
+app.use("/tasks", taskRoutes);
 app.use("/api/goals", goalRoutes);
 
 mongoose
