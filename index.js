@@ -11,7 +11,7 @@ import quotesRoutes from "./models/Quotes.js";
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://cute-lolly-4994dd.netlify.app"],
     credentials: true,
   })
 );
